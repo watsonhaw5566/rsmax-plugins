@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-$ npm install less @rsmax/plugin-less --save
+$ npm install @rsmax/plugin-less --save
 ```
 
 ## 使用
