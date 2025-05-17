@@ -19,7 +19,7 @@
     "node": ">= 18.0.0"
   },
   "nano-staged": {
-    "*.{js,ts}": [
+    "*.{js,ts,md,json}": [
       "prettier --write ./packages"
     ]
   },
