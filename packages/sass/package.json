@@ -1,25 +1,25 @@
 {
-  "name": "@remax/plugin-sass",
+  "name": "@rsmax/plugin-sass",
   "version": "1.0.1",
   "description": "Remax Sass 插件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rslib build",
+    "dev": "rslib build --watch"
   },
   "keywords": [
     "wechat",
     "miniprogram",
     "remax"
   ],
+  "dependencies": {
+    "sass-loader": "^16.0.0"
+  },
+  "peerDependencies": {
+    "rsmax": "> 1.0.0"
+  },
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "remax": "> 2.0.0"
-  },
-  "dependencies": {
-    "sass": "^1.37.5",
-    "sass-loader": "^8.0.2"
-  },
   "publishConfig": {
     "access": "public"
   }

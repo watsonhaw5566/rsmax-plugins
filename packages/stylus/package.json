@@ -2,23 +2,24 @@
   "name": "@remax/plugin-stylus",
   "version": "1.0.0",
   "description": "Remax Stylus 插件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rslib build",
+    "dev": "rslib build --watch"
   },
   "keywords": [
     "wechat",
     "miniprogram",
-    "remax"
+    "remax",
+    "rsmax"
   ],
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "remax": "> 2.0.0"
+    "rsmax": "> 1.0.0"
   },
   "dependencies": {
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^8.0.0"
   },
   "publishConfig": {
     "access": "public"

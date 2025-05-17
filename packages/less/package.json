@@ -1,23 +1,27 @@
 {
-  "name": "@remax/plugin-less",
+  "name": "@rsmax/plugin-less",
   "version": "1.0.0",
   "description": "Remax Less 插件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rslib build",
+    "dev": "rslib build --watch"
   },
   "keywords": [
     "wechat",
     "miniprogram",
     "remax"
   ],
-  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "authors": [
+    "Wei Zhu <yesmeck@gmail.com>",
+    "watsonhaw"
+  ],
   "license": "MIT",
   "dependencies": {
-    "less-loader": "^6.0.0"
+    "less-loader": "^12.0.0"
   },
   "peerDependencies": {
-    "remax": "> 2.0.0"
+    "rsmax": "> 1.0.0"
   },
   "publishConfig": {
     "access": "public"
