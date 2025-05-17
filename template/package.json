@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rslib build",
+    "dev": "rslib build --watch"
   },
   "keywords": [
     "wechat",
     "miniprogram",
-    "remax"
+    "remax",
+    "rsmax"
   ],
-  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "peerDependencies": {
+    "rsmax": "> 1.0.0"
+  },
+  "authors": [
+    "Wei Zhu <yesmeck@gmail.com>",
+    "watsonhaw"
+  ],
   "license": "MIT"
 }
