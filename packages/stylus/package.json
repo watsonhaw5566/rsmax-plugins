@@ -1,7 +1,7 @@
 {
   "name": "@rsmax/plugin-stylus",
   "version": "1.0.1",
-  "description": "Remax Stylus 插件",
+  "description": "Rsmax Stylus 插件",
   "main": "index.js",
   "keywords": [
     "wechat",

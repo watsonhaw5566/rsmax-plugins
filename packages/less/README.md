@@ -1,4 +1,4 @@
-# @remax/plugin-less
+# @rsmax/plugin-less
 
 增加 Less 支持。
 

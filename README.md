@@ -1,6 +1,6 @@
-# Remax Plugins
+# Rsmax Plugins
 
-Remax 官方插件库。
+Rsmax 官方插件库。
 
 ## 插件列表
 

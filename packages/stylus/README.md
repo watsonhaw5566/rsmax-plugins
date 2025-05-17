@@ -1,17 +1,17 @@
-# @remax/plugin-stylus
+# @rsmax/plugin-stylus
 
 增加 Stylus 支持。
 
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-stylus --save
+$ npm install @rsmax/plugin-stylus --save
 ```
 
 ## 使用
 
 ```js
-const stylus = require('@remax/plugin-stylus');
+const stylus = require('@rsmax/plugin-stylus');
 
 module.exports = {
   plugins: [stylus()],

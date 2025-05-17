@@ -1,17 +1,17 @@
-# @remax/plugin-sass
+# @rsmax/plugin-sass
 
 增加 Sass 支持。
 
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-sass --save
+$ npm install @rsmax/plugin-sass --save
 ```
 
 ## 使用
 
 ```js
-const sass = require('@remax/plugin-sass');
+const sass = require('@rsmax/plugin-sass');
 
 module.exports = {
   plugins: [sass()],
