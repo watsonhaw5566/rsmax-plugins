@@ -10,5 +10,4 @@ const less = (options) => {
     },
   };
 };
-
 module.exports = less;

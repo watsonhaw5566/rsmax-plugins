@@ -2,17 +2,14 @@
   "name": "@rsmax/plugin-sass",
   "version": "1.0.1",
   "description": "Remax Sass 插件",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
-  },
+  "main": "index.js",
   "keywords": [
     "wechat",
     "miniprogram",
     "remax"
   ],
   "dependencies": {
+    "sass": "^1.88.0",
     "sass-loader": "^16.0.0"
   },
   "peerDependencies": {

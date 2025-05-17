@@ -2,11 +2,7 @@
   "name": "@rsmax/plugin-less",
   "version": "1.0.0",
   "description": "Remax Less 插件",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
-  },
+  "main": "index.js",
   "keywords": [
     "wechat",
     "miniprogram",
@@ -18,6 +14,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "less": "^4.3.0",
     "less-loader": "^12.0.0"
   },
   "peerDependencies": {

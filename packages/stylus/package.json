@@ -2,11 +2,7 @@
   "name": "@rsmax/plugin-stylus",
   "version": "1.0.0",
   "description": "Remax Stylus 插件",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
-  },
+  "main": "index.js",
   "keywords": [
     "wechat",
     "miniprogram",
@@ -19,6 +15,7 @@
     "rsmax": "> 1.0.0"
   },
   "dependencies": {
+    "stylus": "^0.64.0",
     "stylus-loader": "^8.0.0"
   },
   "publishConfig": {
