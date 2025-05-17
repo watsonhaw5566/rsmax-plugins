@@ -1,6 +1,6 @@
-import {defineConfig} from "@rslib/core";
+const {defineConfig} = require('@rslib/core')
 
-export default defineConfig({
+module.exports = defineConfig({
     lib: [
         {
             format: 'cjs',
@@ -10,4 +10,4 @@ export default defineConfig({
             },
         },
     ],
-})
+});

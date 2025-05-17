@@ -1,13 +1,13 @@
-import { defineConfig } from '@rslib/core';
+const {defineConfig} = require('@rslib/core')
 
-export default defineConfig({
-  lib: [
-    {
-      format: 'cjs',
-      syntax: 'es2019',
-      output: {
-        target: 'node',
-      },
-    },
-  ],
+module.exports = defineConfig({
+    lib: [
+        {
+            format: 'cjs',
+            syntax: 'es2019',
+            output: {
+                target: 'node',
+            },
+        },
+    ],
 });
