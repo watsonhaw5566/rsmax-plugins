@@ -1,5 +1,5 @@
 {
-  "name": "@remax/plugin-stylus",
+  "name": "@rsmax/plugin-stylus",
   "version": "1.0.0",
   "description": "Remax Stylus 插件",
   "main": "dist/index.js",
