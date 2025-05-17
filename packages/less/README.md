@@ -5,13 +5,13 @@
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-less --save
+$ npm install less @rsmax/plugin-less --save
 ```
 
 ## 使用
 
 ```js
-const less = require('@remax/plugin-less');
+const less = require('@rsmax/plugin-less');
 
 module.exports = {
   plugins: [less()],

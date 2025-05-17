@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-sass --save
+$ npm install sass @remax/plugin-sass --save
 ```
 
 ## 使用
