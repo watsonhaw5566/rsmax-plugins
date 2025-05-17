@@ -6,7 +6,8 @@
     "build": "pnpm -r --parallel --filter=./packages/* run build",
     "dev": "pnpm -r --parallel --filter=./packages/* run dev",
     "format": "prettier --write ./packages",
-    "publish": "pnpm publish -r"
+    "prerelease": "pnpm run build",
+    "release": "pnpm publish -r"
   },
   "author": "watsonhaw5566",
   "dependencies": {
